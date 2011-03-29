@@ -1,0 +1,22 @@
+{ "name" : "barricane-wf"
+, "description" : "A NodeJS-based web framework."
+, "version" : "0.1.0"
+, "maintainers" :
+  [ { "name": "Chris Dew"
+    , "email": "chris.dew@barricane.com"
+    }
+  ]
+, "bugs" : { "web" : "http://github.com/chrisdew/barricane-wf/issues" }
+, "licenses" : [ { "type" : "MIT" } ]
+, "repositories" :
+  [ { "type" : "git"
+    , "url" : "http://github.com/chrisdew/barricane-wf"
+    }
+  ]
+, "main" : "./lib/barricane-wf"
+, "engines" : { "node" : ">=0.4.4" }
+, "dependencies" : { "vows" : ">=0.5.2"
+                   , "docco" : ">=0.3.0"
+                   , "datejs" : ">=0.0.1"
+                   }
+}
